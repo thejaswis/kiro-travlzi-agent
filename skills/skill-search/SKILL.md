@@ -1,7 +1,11 @@
 ---
 name: skill-search
-description: Search for an airport photo of a travel destination and add it to the destination's itinerary page on the Travlzi site (thejaswis/travlzi). Can be run standalone to find and patch a photo into an existing page, or invoked automatically by travlzi-add-destination during publishing. Invoke with /skill-search.
+description: Search for an airport photo of a travel destination and add it to the destination's itinerary page on the Travlzi site (thejaswis/travlzi). Owned by subagent1, which my-agent delegates airport photo tasks to. Can be run standalone to find and patch a photo into an existing page, or invoked automatically by travlzi-add-destination during publishing. Invoke with /skill-search.
 ---
+
+## Owner
+
+This skill is owned by **subagent1**. When `my-agent` needs an airport photo found or patched, it delegates the task to `subagent1`, which loads and runs this skill. You can also invoke it directly with `/skill-search`.
 
 ## What this skill does
 
