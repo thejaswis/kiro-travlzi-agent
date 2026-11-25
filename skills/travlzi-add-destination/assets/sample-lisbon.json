@@ -1,0 +1,67 @@
+{
+  "name": "Lisbon",
+  "country": "Portugal",
+  "tag": "Sunlit city break",
+  "description": "Tram rides, pastel streets, riverside light, and evenings of fado and fresh seafood.",
+  "image": "https://images.unsplash.com/photo-1513735492246-483525079686?auto=format&fit=crop&w=900&q=85",
+  "eyebrow": "PORTUGAL · A SUN-DRENCHED CITY BREAK",
+  "heroTitle": "Lisbon,<br><em>take it slow.</em>",
+  "heroDescription": "Spread across seven hills above the Tagus, Lisbon is a city of tiled facades, creaking trams, and long, golden afternoons. Wander at an easy pace and let the viewpoints find you.",
+  "pills": ["3-day itinerary", "Tram rides", "Riverside light"],
+  "intro": {
+    "title": "Getting to Lisbon",
+    "text": "Lisbon is well connected, with most travellers arriving by air. The airport is close to the centre, which makes the first afternoon easy.",
+    "routes": [
+      { "name": "Lisbon Airport (LIS)", "text": "About 20-30 minutes to the centre by metro (Red then Green line) or AeroBus." },
+      { "name": "From Porto", "text": "Roughly 2.5-3 hours by intercity train from Campanhã to Lisboa-Oriente." },
+      { "name": "From the Algarve", "text": "Around 4 hours by train; check seasonal services and connections." }
+    ]
+  },
+  "itineraryTitle": "A loose three-day wander through the city, with time for viewpoints and long dinners.",
+  "days": [
+    {
+      "title": "Alfama & the old quarter",
+      "text": "Lose yourself in tiled lanes and listen for fado drifting from open doorways. This is the Lisbon of postcards, best on foot and unhurried.",
+      "bullets": [
+        "Ride the historic Tram 28 through Alfama and Graça early to beat the crowds.",
+        "Climb to Miradouro de Santa Luzia for rooftops and river light.",
+        "End with a fado dinner in a small tasca."
+      ],
+      "images": [
+        { "src": "https://images.unsplash.com/photo-1513735492246-483525079686?auto=format&fit=crop&w=900&q=85", "alt": "Alfama rooftops over Lisbon" },
+        { "src": "https://images.unsplash.com/photo-1555881400-74a431a3c7fa?auto=format&fit=crop&w=900&q=85", "alt": "Yellow tram on a Lisbon street" }
+      ]
+    },
+    {
+      "title": "Belém & the river",
+      "text": "Head west along the Tagus to where the Age of Discovery began. Wide esplanades, grand monuments, and the original pastel de nata.",
+      "bullets": [
+        "See the Jerónimos Monastery and the Belém Tower (book ahead in season).",
+        "Try a warm pastel de nata at the original Pastéis de Belém.",
+        "Walk the riverside promenade back towards the city as the light softens."
+      ],
+      "images": [
+        { "src": "https://images.unsplash.com/photo-1583509711405-7d07c0e2dac3?auto=format&fit=crop&w=900&q=85", "alt": "Belém riverside and tower" }
+      ]
+    },
+    {
+      "title": "Chiado, Bairro Alto & sunset",
+      "text": "A slower final day of bookshops, cafes, and the city's famous viewpoints, finishing with a sunset drink over the rooftops.",
+      "bullets": [
+        "Browse Livraria Bertrand (claimed to be the world's oldest bookshop) in Chiado.",
+        "Ride the Elevador de Santa Justa or the Gloria funicular up to Bairro Alto.",
+        "Catch sunset from Miradouro de São Pedro de Alcântara, then find dinner."
+      ],
+      "images": [
+        { "src": "https://images.unsplash.com/photo-1574887711405-7d07c0e2dac3?auto=format&fit=crop&w=900&q=85", "alt": "Lisbon rooftops at sunset" },
+        { "src": "https://images.unsplash.com/photo-1513735492246-483525079686?auto=format&fit=crop&w=900&q=85", "alt": "Evening light over Lisbon" }
+      ]
+    }
+  ],
+  "food": [
+    { "title": "Pastéis de nata", "text": "Warm custard tarts, best with a bica (espresso)." },
+    { "title": "Tasca petiscos", "text": "Small plates of bacalhau, grilled sardines, olives, and cheese." },
+    { "title": "Ginja", "text": "A sweet cherry liqueur, often sipped from a chocolate cup in Alcântara or Rossio." }
+  ],
+  "tip": { "title": "Travlzi tip: ride the trams off-peak", "text": "Tram 28 fills up by mid-morning. Ride early or late, buy a Viva Viagem pass for the day, and wear comfortable shoes for those hills." }
+}
