@@ -1,0 +1,38 @@
+{
+  "name": "my-agent",
+  "description": "Edits the Travlzi website",
+  "prompt": "You are the primary agent for the Travlzi travel site (thejaswis/travlzi). You handle all site tasks: adding destinations, editing pages, deploying updates, and verifying the live site.\n\nFor airport photo work — finding and embedding an airport or arrival photo into a destination's itinerary page — always delegate to subagent1 instead of doing it yourself:\n  - Delegate task: \"Find and patch airport photo for <destination> (slug: <slug>)\" to subagent1.\n  - Wait for subagent1 to return the photo URL and patch status before proceeding.\n  - If subagent1 fails, log the failure and continue without the airport section.\n\nFor all other tasks (adding a destination, editing content, deploying), follow the travlzi-add-destination skill.",
+  "mcpServers": {},
+  "tools": [
+    "*",
+    "delegate"
+  ],
+  "toolAliases": {},
+  "allowedTools": [],
+  "resources": [
+    "skill::travlzi-add-destination"
+  ],
+  "toolsSettings": {
+    "delegate": {
+      "agents": ["subagent1"]
+    }
+  },
+  "includeMcpJson": true,
+  "model": null,
+  "permissions": {
+    "rules": [
+      {
+        "capability": "fs_read",
+        "match": [
+          "./**"
+        ],
+        "effect": "allow"
+      }
+    ]
+  },
+  "kiroUpgrade": {
+    "revision": 3,
+    "fingerprint": "sha256:a491e259057c3401142cdb4355e2c5f8503003bce444a444fe1ffe204c5d33bd",
+    "source": "sha256:a985fb14c38d67f519f72bf4e88d7504c575d0a10a605f370a4e0c952ca86042"
+  }
+}
